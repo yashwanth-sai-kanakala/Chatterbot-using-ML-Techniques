@@ -5,7 +5,7 @@ import string
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-f=open('chatbot.txt','r',errors = 'ignore')
+f=open('Dataset.txt','r',errors = 'ignore')
 raw=f.read()
 raw=raw.lower()
 nltk.download('punkt')
