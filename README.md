@@ -22,7 +22,7 @@ The NLTK package also contains a pre-trained punkt tokenizer for English for bas
 
 4. “ Lemmatization ” is nothing but a slight variation of the stemming. The major difference is that Stemming can create a non-existent word. Whereas the lemmas is an actual word and it will overcome the stemming problem.
 
-#### Bag of Words:
+### Bag of Words:
 
 After the pre-processing stage, the algorithm should transform the words into vectors for further processing. The bag of words is a representation of text occurrence within the whole document.
 
